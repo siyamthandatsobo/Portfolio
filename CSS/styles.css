@@ -1,3 +1,24 @@
-#lanDing{
-    height: 100vh;
+
+.menulinks{
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.education{
+    font-family: 'Sofia';
+}
+#contact{
+    background-color: rgb(204, 204, 204);
+}
+#Knowledge{
+    background-color: rgb(252, 255, 252);
+}
+#Aboutme{
+    background-color:rgb(181, 181, 181);
+}
+#projects{
+    background-color: rgb(222, 222, 222);
+}
+#contactfrm{
+    background-color:rgb(157, 152, 144) ;
 }

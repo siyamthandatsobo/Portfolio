@@ -1,81 +1,255 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Sofia'>
   </head>
   <body>
     <!--navbar-->
 
-    <nav class="navbar navbar-expand-md py-1 bg-black">
-        <div class="container-xxl">
+    <nav class="navbar navbar-expand-md py-1 bg-black ">
+      <div class="container justify-content-end">
+        <div>
           <a class="navbar-brand" href="#"></a>
           <!--toggle button for mobile device-->
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon bg-light border-0"></span>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon border-0 bg-light"></span>
           </button>
         </div>
-          <!--offcanvas-->
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-              <div class="offcanvas-body justify-content-center align-content-center bg-black">
-                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white h4" href="#Home">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white h4" href="#aboutme">About me</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white h4" href="#skills">Skills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white h4" href="#contactme">Contactme</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white h4" href="#projects">Projects</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white h4 " href="#testimonials">Testimonials</a>
-                  </li>
+        <!--offcanvas-->
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              Navigation
+            </h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body menulinks bg-black">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active text-white h4" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white h4" href="#aboutme">About me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white h4" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white h4" href="#contactme"
+                  >Contactme</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white h4" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white h4" href="#testimonials"
+                  >Testimonials</a
+                >
+              </li>
 
-                  <!-- Add more list items here -->
-                </ul>
-              </div>
+              <!-- Add more list items here -->
+            </ul>
           </div>
         </div>
+      </div>
     </nav>
     <!--container with image and text columns-->
-    <div id="lanDing" class="bg-black">
+
+    <section class="bg-black">
       <div class="container">
         <div class="row vh-100 justify-content-center align-items-center">
           <div class="col-4">
             <div class="align-items-start">
-              <img class="img-fluid" src="https://i.postimg.cc/Vk06Ytcq/2.png/" alt="logo">
+              <img
+                class="img-fluid"
+                src="https://i.postimg.cc/Vk06Ytcq/2.png/"
+                alt="logo"
+              />
             </div>
           </div>
           <div class="col-8">
             <div class="display-5 text-white">Siyamthanda Tsobo</div>
-            <p class="lead h4 text-light">Aspiring full-stack developer that would like to specialise in back-end.</p>
-          
+            <p class="lead h4 text-light">
+              Aspiring full-stack developer that would like to specialise in
+              back-end.
+            </p>
           </div>
         </div>
       </div>
     </section>
     <!--Aboutme-->
-    
+    <section class="vh-100" id="Aboutme">
+      <div class="container-fluid">
+        <div class="row vh-100 justify-content-center align-items-center">
+          <div class="col-4">
+            <div class="align-items-start">
+              <img
+                class="img-fluid"
+                src="https://i.postimg.cc/6pGZ6gtj/20231015-160925.jpg"
+              />
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="display-5 d-flex d-sm-block pb-5">About Me</div>
+            <p class="lead h4 text-black">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam libero soluta dolorem expedita id repellat deserunt exercitationem obcaecati distinctio est, quas pariatur mollitia, officiis ex! Soluta rerum odit asperiores optio!
+              Recusandae, qui assumenda ab neque dicta, rem aut odio unde magni sequi error! Esse error dicta vel ea, ut repellat at saepe qui. Reprehenderit facilis consequuntur nostrum ducimus eaque fugit!
+              Incidunt quidem eum harum rerum ipsam facere a illum laboriosam optio, quae velit, commodi nihil magni porro totam vitae fugiat dignissimos autem nesciunt in? Enim quidem culpa voluptatem accusamus ducimus.
+              Perferendis quisquam fugit numquam incidunt voluptates consequatur tempore repellat debitis suscipit temporibus minus assumenda ipsam saepe repellendus voluptas harum, reiciendis delectus enim? Possimus commodi soluta maiores iusto molestiae beatae voluptatem!
+              Eius pariatur asperiores consequatur ea quisquam velit error magni. Labore accusantium eum sunt ad. Harum at error aliquid necessitatibus rem? Consequatur beatae, excepturi aliquid fugiat libero illo voluptatem quae ad.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </section>
 
-
+  <section  class=" vh-100" id="contact">
+    <p class="display-4">Please Contactme</p>
+    <div class="container" id="contactfrm">
+    <form class="text-white">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputMessage1" class="form-label">Message</label>
+        <input type="Message" class="form-control" id="exampleInputMessage1">
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      </div>
     </section>
-      </body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!--Knowledge-->
+      <section class="vh-100" id="Knowledge">
+        <div class="container container-fluid">
+          <div class="row vh-100 justify-content-center align-items-center">
+            <div class="col-8">
+              <div class="display-5 text-dark">Knowledge</div>
+              <p class="lead h4 text-dark">
+                Every knowledge is important.Over some time I have been able to master certain technologies.Such as :
+HTML,CSS,JAVASCRIPT,BOOTSTRAP,NODEJS,VUEJS and MSQL.
+              </p>
+            
+              <p class="lead">Im currently continuing learning other technologies but I always keep updating my main skills as a developer due to constant usage of them in the industry.
+ 
+                I have a solid background in javascript making me flexible in mobile and web projects.I would fit in any team in this Ecosystem.</p>
+            </div>
+            <div class="col-4">
+              <div class="align-items-end">
+                <img
+                  class="img-fluid"
+                  src="https://i.postimg.cc/Vk06Ytcq/2.png/"
+                  height=900px alt="logo"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> 
+      <!--Projects-->
+
+      
+      <section class="vh-100 align-content-center" id="projects">
+        <div class="container">
+          <h1 class="display-4">Projects</h1>
+          <p>This is a list of projects I have build so far.I am a believer of action and tetsing Knowledge</p>
+<div class="row">
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Project1</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link btn btn-dark text-light">Github</a>
+        <a href="#" class="card-link btn btn-dark text-light">Netlify</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Projectt2</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Github</a>
+        <a href="#" class="card-link">Netlify</a>
+      </div>
+    </div>
+  </div>
+    <div class="col">
+      <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Project3</h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="card-link">Github</a>
+        <a href="#" class="card-link">Netlify</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Project4</h5>
+        <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Github</a>
+        <a href="#" class="card-link">Netlify</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" style="width: 18rem;">
+      <div class="card-body">
+        <h5 class="card-title">Project5<h5>
+          <h6 class="card-subtitle mb-2 text-body-secondary">Card subtitle</h6>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+  </div>
+</div>
+      </section>
+      
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
