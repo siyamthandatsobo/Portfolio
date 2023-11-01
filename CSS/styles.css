@@ -1,8 +1,13 @@
-
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 .menulinks{
     width:100%;
     justify-content: center;
     align-items: center;
+    background-color: azure;
 }
 .education{
     font-family: 'Sofia';
@@ -13,12 +18,39 @@
 #Knowledge{
     background-color: rgb(252, 255, 252);
 }
-#Aboutme{
-    background-color:rgb(181, 181, 181);
-}
+
 #projects{
     background-color: rgb(222, 222, 222);
 }
 #contactfrm{
     background-color:rgb(157, 152, 144) ;
+}
+.div{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    padding-top: 20px;
+    background-image: url('https://i.postimg.cc/j2tWVL6f/20231015-160925-removebg-preview.png');
+    background-size: cover;
+    background-position: fixed;
+    width:100%;
+    justify-content: center;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#aboutme{
+    background-color: rgb(255, 255, 255);
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+.img{
+    border-radius: 80px;
 }
