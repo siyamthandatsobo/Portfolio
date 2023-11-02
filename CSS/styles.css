@@ -25,24 +25,13 @@
 #contactfrm{
     background-color:rgb(157, 152, 144) ;
 }
-.div{
-    background-color: rgb(255, 255, 255);
-    border-radius: 50px;
-    padding-top: 20px;
-    background-image: url('https://i.postimg.cc/j2tWVL6f/20231015-160925-removebg-preview.png');
-    background-size: cover;
-    background-position: fixed;
-    width:100%;
-    justify-content: center;
-}
+
 body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-#aboutme{
-    background-color: rgb(255, 255, 255);
-}
+
 
 .tab-content {
     display: none;
@@ -53,4 +42,12 @@ body {
 }
 .img{
     border-radius: 80px;
+    background-color: orange;
 }
+#siya{
+    border:solid rgb(189, 136, 136);
+    border-radius: 60%;
+    background-color: white;
+}
+
+
