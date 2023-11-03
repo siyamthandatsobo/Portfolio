@@ -55,7 +55,6 @@ body {
   background-color: white;
 }
 
-
 #aboutme {
   background-image: url("https://i.postimg.cc/cJ8gNmr1/background-image-of.jpg");
   background-repeat: no-repeat;
@@ -95,21 +94,56 @@ img.text-logo {
   width: 100%;
 }
 footer {
-  height: 100px;
+  height: 150px;
+  width: 100%;
   display: flex;
   place-items: center;
   justify-content: center;
-  position: absolute;
+  /* position: absolute; */
 }
 footer ul {
   list-style: none;
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  gap: 20px;
+  justify-content: space-evenly;
   font-size: 30px;
 }
 
 footer ul li a {
   text-decoration: none;
   color: #fff;
+}
+
+.testimonial-card{
+  width: 300px;
+}
+
+.tracking-in-expand {
+	-webkit-animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+ 
+ @-webkit-keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-expand {
+  0% {
+    letter-spacing: -0.5em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
