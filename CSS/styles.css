@@ -1,24 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,700&family=Roboto:wght@300&display=swap");
 
-.menulinks{
-    width:100%;
-    justify-content: center;
-    align-items: center;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.education{
-    font-family: 'Sofia';
+
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-#contact{
-    background-color: rgb(204, 204, 204);
+.menulinks {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
 }
-#Knowledge{
-    background-color: rgb(252, 255, 252);
+.education {
+  font-family: "Sofia";
 }
-#Aboutme{
-    background-color:rgb(181, 181, 181);
+#contact {
+  background-color: rgb(204, 204, 204);
 }
-#projects{
-    background-color: rgb(222, 222, 222);
+#Knowledge {
+  background-color: rgb(252, 255, 252);
 }
-#contactfrm{
-    background-color:rgb(157, 152, 144) ;
+
+#projects {
+  background-color: rgb(222, 222, 222);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+.img {
+  border-radius: 80px;
+  background-color: orange;
+}
+#siya {
+  border: solid rgb(189, 136, 136);
+  border-radius: 60%;
+  background-color: white;
+}
+
+
+#aboutme {
+  background-image: url("https://i.postimg.cc/cJ8gNmr1/background-image-of.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.696);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.overlay-content {
+  z-index: 10;
+}
+
+div.text-logo_box,
+.center-items {
+  display: grid;
+  place-items: center;
+}
+img.text-logo {
+  width: 200px;
+}
+
+.icon {
+  width: 80px;
+}
+
+.icon img {
+  width: 100%;
+}
+footer {
+  height: 100px;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  font-size: 30px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
 }
