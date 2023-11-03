@@ -19,13 +19,15 @@ body {
 .education {
   font-family: "Sofia";
 }
-#contact {
-  background-color: rgb(204, 204, 204);
+#contactme{
+  background-color: rgb(240, 205, 205);
 }
 #Knowledge {
   background-color: rgb(252, 255, 252);
 }
-
+#testimonials{
+  background-color: rgb(94, 93, 93);
+}
 #projects {
   background-color: rgb(222, 222, 222);
 }
@@ -94,15 +96,16 @@ img.text-logo {
 }
 footer {
   height: 100px;
-  display: grid;
+  display: flex;
   place-items: center;
   justify-content: center;
+  position: absolute;
 }
 footer ul {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  width: 500px;
+  width: 100%;
   font-size: 30px;
 }
 
